@@ -36,7 +36,7 @@ st.write(outcome)
 
 ### Optional:
 
-- _default = []_ - must be a subset of _button_list_, these option are automatically selected upon boot.
+- _default = []_ - must be a subset of _button_list_, these options are automatically selected upon boot.
 - _color = "standard"_ - The color of the button when it is selected, options includes 'standard', 'primary', 'secondary', 'error', 'info', 'success' and 'warning'.
 - _size = "medium"_ - The size of the component, options includes 'small', 'medium' and 'large'.
 - _exclusive = False_ - forces only one item to be selected from _button_list_.
