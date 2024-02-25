@@ -7,13 +7,13 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit-toggle-button-set",
-    version="0.0.3",
+    version="0.0.4",
     author="Ben Guo",
     author_email="benjaminguo14@gmail.com",
     description="A multi-select button group",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/benny140/streamlit-toggle-button-set",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
