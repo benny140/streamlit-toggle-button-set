@@ -32,12 +32,12 @@ st.write(outcome)
 
 ### Required:
 
-- button_list
+- _button_list_
 
 ### Optional:
 
-- _default = []_ - a subset of the button_list that is selected upon rendering.
+- _default = []_ - must be a subset of _button_list_, these option are automatically selected upon boot.
 - _color = "standard"_ - The color of the button when it is selected, options includes 'standard', 'primary', 'secondary', 'error', 'info', 'success' and 'warning'.
-- _size = "medium"_ - The size of the component, options includes 'small', 'medium', 'large'.
-- _exclusive = False_ - only allow one of the button_list to be selected.
-- _use_container_width = False_ - will take up the full width of its container.
+- _size = "medium"_ - The size of the component, options includes 'small', 'medium' and 'large'.
+- _exclusive = False_ - forces only one item to be selected from _button_list_.
+- _use_container_width = False_ - will make the component take up the full width of its container.
