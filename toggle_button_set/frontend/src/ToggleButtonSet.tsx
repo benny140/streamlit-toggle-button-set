@@ -27,7 +27,7 @@ const ToggleButtonSet = ({ args }: ComponentProps) => {
       onChange={handleFormat}
       size={args.size}
       exclusive={args.exclusive}
-      fullWidth={args.fullWidth}
+      fullWidth={args.use_container_width}
     >
       {items.map((item: string, index: number) => (
         <ToggleButton key={index} value={item}>
