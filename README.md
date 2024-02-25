@@ -30,18 +30,14 @@ st.write(outcome)
 
 ## Arguments
 
-REQUIRED:
+### Required:
 
-button_list
+- button_list
 
-OPTIONAL:
+### Optional:
 
-(default = []) - a subset of the button_list that is selected upon rendering.
-
-(color = "standard") - The color of the button when it is selected, options includes 'standard', 'primary', 'secondary', 'error', 'info', 'success' and 'warning'.
-
-(size = "medium") - The size of the component, options includes 'small', 'medium', 'large'.
-
-(exclusive = False) - only allow one of the button_list to be selected.
-
-(use_container_width = False) - will take up the full width of its container.
+- _default = []_ - a subset of the button_list that is selected upon rendering.
+- _color = "standard"_ - The color of the button when it is selected, options includes 'standard', 'primary', 'secondary', 'error', 'info', 'success' and 'warning'.
+- _size = "medium"_ - The size of the component, options includes 'small', 'medium', 'large'.
+- _exclusive = False_ - only allow one of the button_list to be selected.
+- _use_container_width = False_ - will take up the full width of its container.
