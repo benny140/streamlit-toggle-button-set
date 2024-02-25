@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: streamlit-toggle-button-set
-Version: 0.0.3
+Version: 0.0.4
 Summary: A multi-select button group
-Home-page: 
+Home-page: https://github.com/benny140/streamlit-toggle-button-set
 Author: Ben Guo
 Author-email: benjaminguo14@gmail.com
 Requires-Python: >=3.7
