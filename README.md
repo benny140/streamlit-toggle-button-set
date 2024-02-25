@@ -26,6 +26,10 @@ outcome = toggle_button_set(
 st.write(outcome)
 ```
 
+## Github Link
+
+https://github.com/benny140/streamlit-toggle-button-set
+
 ## Arguments
 
 REQUIRED:
