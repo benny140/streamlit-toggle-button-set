@@ -12,6 +12,6 @@ toggle_button_set/example.py
 toggle_button_set/frontend/build/asset-manifest.json
 toggle_button_set/frontend/build/bootstrap.min.css
 toggle_button_set/frontend/build/index.html
-toggle_button_set/frontend/build/static/js/main.d47c7634.js
-toggle_button_set/frontend/build/static/js/main.d47c7634.js.LICENSE.txt
-toggle_button_set/frontend/build/static/js/main.d47c7634.js.map
+toggle_button_set/frontend/build/static/js/main.182a0cd6.js
+toggle_button_set/frontend/build/static/js/main.182a0cd6.js.LICENSE.txt
+toggle_button_set/frontend/build/static/js/main.182a0cd6.js.map
