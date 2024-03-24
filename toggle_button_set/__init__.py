@@ -13,7 +13,7 @@ else:
     build_dir = os.path.join(parent_dir, "frontend/build")
     _component_func = components.declare_component("toggle_button_set", path=build_dir)
 
-def toggle_button_set(button_list, default=[], color="standard", size="medium", exclusive=False, use_container_width=False):
+def toggle_button_set(button_list, default=[], color="standard", size="medium", exclusive=False, use_container_width=False, key=None):
     # component_value = _component_func(name=name, key=key, default=0)
     component_value = _component_func(
         button_list=button_list, 
@@ -21,6 +21,7 @@ def toggle_button_set(button_list, default=[], color="standard", size="medium", 
         color=color, 
         size=size,
         exclusive=exclusive,
-        use_container_width=use_container_width
+        use_container_width=use_container_width,
+        key=key
     )
     return component_value

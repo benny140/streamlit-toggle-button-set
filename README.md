@@ -41,3 +41,4 @@ st.write(outcome)
 - _size = "medium"_ - The size of the component, options includes 'small', 'medium' and 'large'.
 - _exclusive = False_ - forces only one item to be selected from _button_list_.
 - _use_container_width = False_ - will make the component take up the full width of its container.
+- _key = None_ - optional key
