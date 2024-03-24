@@ -7,7 +7,8 @@ outcome = toggle_button_set(
     color="primary", 
     size="large", 
     exclusive=False, 
-    use_container_width=False
+    use_container_width=False,
+    key='optional_key'
 )
 
 st.write(outcome)
